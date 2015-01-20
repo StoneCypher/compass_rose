@@ -5,6 +5,10 @@
   -ms-border-radius:     $radius
   border-radius:         $radius
 
+
+
+
+
 // this isn't collapsed because webkit's transition support doesn't have the delay parameter
 // when a delay is provided to webkit it fails the whole rule
 
@@ -25,3 +29,18 @@
   -moz-transition-delay:    $delay
   -o-transition-delay:      $delay
   transition-delay:         $delay
+
+
+
+
+
+=opacity($opacity)
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); // IE8
+
+
+
+
+
+// explicitly dropping box-shadow entirely; our entire browser stack supports it wholesale
