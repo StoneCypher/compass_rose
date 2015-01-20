@@ -4,3 +4,24 @@
   -moz-border-radius:    $radius
   -ms-border-radius:     $radius
   border-radius:         $radius
+
+// this isn't collapsed because webkit's transition support doesn't have the delay parameter
+// when a delay is provided to webkit it fails the whole rule
+
+=single-transition($prop: all, $trans: 0s, $timing: ease-out, $delay: 0s)
+  -webkit-transition-property: $trans
+  -moz-transition-property:    $trans
+  -o-transition-property:      $trans
+  transition-property:         $trans
+  -webkit-transition-duration: $timing
+  -moz-transition-duration:    $timing
+  -o-transition-duration:      $timing
+  transition-duration:         $timing
+  -webkit-transition-timing-function: $timing
+  -moz-transition-timing-function:    $timing
+  -o-transition-timing-function:      $timing
+  transition-timing-function:         $timing
+  -webkit-transition-delay: $delay
+  -moz-transition-delay:    $delay
+  -o-transition-delay:      $delay
+  transition-delay:         $delay
