@@ -1,0 +1,27 @@
+{
+  "author": "John Haugeland",
+  "name": "compass_rose",
+  "description": "A simple, limited pure-SASS shim to ease getting out of Compass - because a Compass by any other name still smells as sweet",
+  "version": "0.3.0",
+  "repository": {
+    "url": "https://github.com/StoneCypher/compass_rose"
+  },
+  "keywords": [
+    "mixin",
+    "compass",
+    "shim",
+    "lame",
+    "silly",
+    "incomplete",
+    "freedom",
+    "sass",
+    "stonecypher"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {}
+}
