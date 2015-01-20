@@ -17,7 +17,7 @@ Currently I support
 I am explicitly dropping `=box-shadow` because it's natively supported by the browsers I care about.
 
 ## Note
-It may be useful to use [ReverseLodestone]() before you get started, to make sure there aren't any severe dependencies.
+It may be useful to use [ReverseLodestone](https://github.com/StoneCypher/ReverseLodestone) before you get started, to make sure there aren't any severe dependencies.
 
 Polemic :neckbeard:
 -------------------
